@@ -1,0 +1,87 @@
+---
+title: Contact
+lang: en
+---
+
+<main class="sign-up">
+  <div class="sign-up-header container">
+    <h1>Contact</h1>
+
+    <p class="description">Contact us to see how Bubble CMS can help you.</p>
+
+    <div
+      style="
+        display: grid;
+        grid: auto / repeat(auto-fit, minmax(16rem, 1fr));
+        gap: 2em;
+      "
+    >
+      <div>
+        <p>
+          Apptiva AG<br />
+          Neuenkirchstrasse 19<br />
+          CH-6203 Sempach Station<br />
+          Switzerland
+        </p>
+        <a href="tel:+41413222626" target="_blank" rel="noopener noreferrer"
+          >+41 41 322 26 26</a
+        ><br />
+        <a href="mailto:info@apptiva.ch">info@apptiva.ch</a>
+      </div>
+
+      <div class="register-container">
+        <div class="sign-up-form">
+          <form
+            name="contact"
+            method="POST"
+            action="/en/contact-success/"
+            netlify
+          >
+            <ul class="form-items">
+              <li>
+                <label>Name <span class="required">*</span></label
+                ><input
+                  type="text"
+                  name="name"
+                  required
+                  placeholder="Your name"
+                />
+              </li>
+              <li>
+                <label>Company <span class="required">*</span></label>
+                <input
+                  type="text"
+                  name="company"
+                  required
+                  placeholder="Name of your company"
+                />
+              </li>
+              <li>
+                <label>Email <span class="required">*</span></label>
+                <input
+                  type="email"
+                  required
+                  name="email"
+                  placeholder="Your email address"
+                />
+              </li>
+              <li>
+                <label>Message</label>
+                <textarea
+                  name="message"
+                  rows="4"
+                  placeholder="Leave a message"
+                ></textarea>
+              </li>
+              <li>
+                <button type="submit">
+                  <span>Send message</span>
+                </button>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
