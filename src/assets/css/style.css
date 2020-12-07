@@ -1,5 +1,5 @@
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   margin: 0;
   color: #111;
   background-color: #f2f2f2;
@@ -8,7 +8,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.2;
   margin-top: 0;
 }
@@ -220,7 +220,7 @@ body {
 
 .preview-container .item-image {
   flex: 0 0 63%;
-  margin-left:  auto;
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -518,7 +518,7 @@ body {
   border: 1px solid rgb(217, 217, 217);
   border-radius: 4px;
   font-size: 1rem;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .sign-up .form-items textarea {
@@ -528,7 +528,7 @@ body {
   border: 1px solid rgb(217, 217, 217);
   border-radius: 4px;
   font-size: 1rem;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .sign-up-success {

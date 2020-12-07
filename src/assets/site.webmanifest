@@ -8,9 +8,9 @@
       "type": "image/x-icon"
     },
     {
-      "src":"favicon.png",
-      "sizes":"256x256",
-      "type":"image/png"
+      "src": "favicon.png",
+      "sizes": "256x256",
+      "type": "image/png"
     }
   ],
   "theme_color": "#722ed1",

@@ -108,7 +108,7 @@ header .logo {
    [aria-expanded] will be used if/when JavaScript is added to improve interaction, though it's completely optional.
   */
 .main-menu:target,
-.main-menu[aria-expanded="true"] {
+.main-menu[aria-expanded='true'] {
   display: block;
   left: 0;
   outline: none;
@@ -118,12 +118,12 @@ header .logo {
 }
 
 .main-menu:target .menu-close,
-.main-menu[aria-expanded="true"] .menu-close {
+.main-menu[aria-expanded='true'] .menu-close {
   z-index: 1001;
 }
 
 .main-menu:target ul,
-.main-menu[aria-expanded="true"] ul {
+.main-menu[aria-expanded='true'] ul {
   position: relative;
   z-index: 1000;
 }
@@ -133,7 +133,7 @@ header .logo {
    it wouldn't be clickable.
   */
 .main-menu:target + .backdrop,
-.main-menu[aria-expanded="true"] + .backdrop {
+.main-menu[aria-expanded='true'] + .backdrop {
   position: absolute;
   display: block;
   left: 0;
@@ -149,7 +149,7 @@ header .logo {
 @supports (position: fixed) {
   .main-menu,
   .main-menu:target + .backdrop,
-  .main-menu[aria-expanded="true"] + .backdrop {
+  .main-menu[aria-expanded='true'] + .backdrop {
     position: fixed;
   }
 }
