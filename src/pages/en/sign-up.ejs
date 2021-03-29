@@ -18,9 +18,16 @@ lang: en
           name="early-access"
           action="/en/sign-up-success/"
           method="POST"
+          netlify-honeypot="address"
           data-netlify="true"
         >
           <ul class="form-items">
+            <li hidden="true">
+              <label
+                >Nicht ausfüllen, wenn Sie ein Mensch sind:
+                <input name="address"
+              /></label>
+            </li>
             <li>
               <label>Name <span class="required">*</span></label
               ><input

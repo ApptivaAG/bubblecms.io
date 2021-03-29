@@ -35,9 +35,16 @@ lang: en
             name="contact"
             method="POST"
             action="/en/contact-success/"
-            netlify
+            netlify-honeypot="address"
+            data-netlify="true"
           >
             <ul class="form-items">
+              <li hidden="true">
+                <label
+                  >Nicht ausfüllen, wenn Sie ein Mensch sind:
+                  <input name="address"
+                /></label>
+              </li>
               <li>
                 <label>Name <span class="required">*</span></label
                 ><input
